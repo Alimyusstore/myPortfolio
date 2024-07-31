@@ -1,0 +1,77 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "I’m a highly skilled and passionate Front-end Software Developer with over 3+ years of experience in designing, developing, and maintaining responsive websites and web applications. Proficient in HTML, CSS, JavaScript, and modern frontend frameworks and libraries such as React, Tailwind, Bootstrap and more. I Adept at collaborating with cross-functional teams to deliver high-quality products that enhance our user experience and meet our business objectives. I’ve Committed to staying updated with the latest industry trends and best practices."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "I am a skilled backend developer with over 1+ year of experience with a strong foundation in server-side technologies, database management, and application architecture. My expertise lies in building robust, scalable, and efficient server-side solutions that power seamless and dynamic web and mobile applications."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Graphic Design",
+      "description": "As a skilled graphic designer with over 5+ year of experience, I bring creativity and technical expertise to every project. With a keen eye for detail and a passion for visual storytelling, I specialize in creating compelling and aesthetically pleasing designs that effectively communicate your brand’s message. My proficiency spans across various design software"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Video Editing",
+      "description": "I am a proficient video editor with a passion for storytelling and a keen eye for detail. My expertise lies in creating engaging and visually appealing video content that captivates audiences and communicates messages effectively"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/9mobile.png",
+      "title": "9mobile Clone",
+      "description": " i cloned the 9mobile app to enhance and demonstrate my frontend development skills. This project involved recreating the user interface and core functionalities of the 9mobile app using React.js and Tailwind CSS.",
+      "link": "https://github.com/Alimyusstore/9mobile"
+    },
+    {
+      "id": "2",
+      "src": "./img/palmpay.png",
+      "title": "Palmpay Clone",
+      "description": "i developed a clone of the PalmPay app to enhance and showcase my frontend development skills. This project involved replicating the user interface and key functionalities of the PalmPay app using React.js and Tailwind CSS.",
+      "link": "https://github.com/Alimyusstore/palmpay"
+    },
+    {
+      "id": "3",
+      "src": "./img/Zulfah.png",
+      "title": "Zulfah",
+      "description": " i developed a clone of Zulfah Academy App to facilitate technology learning and enhance the digital experience for students and developers. This project involved creating a user-friendly interface and key educational functionalities using React.js and Tailwind CSS. ",
+      "link": "https://github.com/Alimyusstore/zulfahAcademy"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Yusuf has been an exceptional frontend developer at Zulfah Academy for over a year. His expertise in React.js and Tailwind CSS was crucial in creating a user-friendly and responsive educational platform. He played a key role in developing and maintaining frontend projects. Yusuf consistently demonstrated strong technical skills, creativity, and a proactive attitude. His ability to effectively communicate, troubleshoot, and deliver innovative solutions made him a valuable asset to our team. I highly recommend Yusuf for any frontend development position.",
+      "author_name": "Abayomi Ajao",
+      "author_designation": "CEO of Zulfah"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "I am pleased to provide this testimonial for Yusuf, who has proven to be an exceptional frontend developer with impressive technical skills and a commitment to excellence. Yusuf has demonstrated outstanding proficiency in React.js and Tailwind CSS, delivering high-quality software solutions that are both user-friendly and visually appealing. His ability to understand complex requirements and translate them into effective frontend implementations has been commendable.Beyond his technical abilities, Yusuf is known for his problem-solving skills, attention to detail, and proactive attitude. He collaborates effectively with team members, addresses challenges promptly, and consistently seeks ways to improve our software solutions. I highly recommend Yusuf for any frontend development position. His technical knowledge, creativity, and strong work ethic make him a valuable asset to any team. We are confident in his ability to contribute positively and succeed in future endeavors.",
+      "author_name": "Quadri Salawudeen",
+      "author_designation": "Co-Founder of Xenturylens"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Yusuf has been an exceptional frontend developer at Zulfah Academy for over a year. His expertise in React.js and Tailwind CSS was crucial in creating a user-friendly and responsive educational platform. He played a key role in developing and maintaining frontend projects. Yusuf consistently demonstrated strong technical skills, creativity, and a proactive attitude. His ability to effectively communicate, troubleshoot, and deliver innovative solutions made him a valuable asset to our team. I highly recommend Yusuf for any frontend development position.",
+      "author_name": "Abayomi Ajao",
+      "author_designation": "CEO of Zulfah"
+    }
+  ]
+}
