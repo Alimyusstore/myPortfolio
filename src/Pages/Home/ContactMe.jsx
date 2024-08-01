@@ -1,14 +1,46 @@
+import { useState } from "react";
+
 export default function ContactMe() {
+
+  let options = [
+    "Select One...",
+    "Web Development",
+    "Graphics Design",
+    "Video Editing",
+  ];
+const [info, setInfo] = useState({
+  firstName: "",
+  lastName: "",
+  email: "",
+  phone: "",
+  select: options[0],
+  message: "",
+});
+
+console.log(info)
+
+ function handleSubmit (e){
+    e.preventDefault()
+    setInfo({
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      select: options[0],
+      message: "",
+    });
+
+ }
+
+
   return (
     <section id="Contact" className="contact--section">
       <div>
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
-        <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
-        </p>
+        <p className="text-lg"></p>
       </div>
-      <form className="contact--form--container">
+      <form className="contact--form--container" onSubmit={handleSubmit}>
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
@@ -17,6 +49,8 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="first-name"
               id="first-name"
+              value={info.firstName}
+              onChange={(e) => setInfo(e.target.value)}
               required
             />
           </label>
@@ -27,6 +61,8 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="last-name"
               id="last-name"
+              value={info.lastName}
+              onChange={(e) => setInfo(e.target.value)}
               required
             />
           </label>
@@ -37,6 +73,8 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="email"
               id="email"
+              value={info.email}
+              onChange={(e) => setInfo(e.target.value)}
               required
             />
           </label>
@@ -47,6 +85,8 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
+              value={info.phone}
+              onChange={(e) =>  setInfo(e.target.value)}
               required
             />
           </label>
@@ -54,10 +94,11 @@ export default function ContactMe() {
         <label htmlFor="choode-topic" className="contact--label">
           <span className="text-md">Choose a topic</span>
           <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+            {options.map((option, i) => (
+              <option  onClick={(e) =>  setInfo(e.target.option)} key={i}>
+                {option}
+              </option>
+            ))}
           </select>
         </label>
         <label htmlFor="message" className="contact--label">
@@ -66,6 +107,8 @@ export default function ContactMe() {
             className="contact--input text-md"
             id="message"
             rows="8"
+            value={info.message}
+            onChange={(e) => setInfo(e.target.value)}
             placeholder="Type your message..."
           />
         </label>
