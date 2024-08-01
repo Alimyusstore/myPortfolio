@@ -17,7 +17,7 @@ const [info, setInfo] = useState({
   message: "",
 });
 
-console.log(info)
+// console.log(info)
 
  function handleSubmit (e){
     e.preventDefault()
