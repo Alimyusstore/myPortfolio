@@ -507,6 +507,7 @@ input[type="checkbox"] {
   border: 0.15em solid var(--heading-color);
   border-radius: 0.15em;
   transform: translatey(-0.075em);
+  z-index: -99;
 }
 /* Contact End */
 
