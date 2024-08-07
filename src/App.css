@@ -416,7 +416,7 @@ h2 {
   gap: 42.6px;
   flex: 1 0 0;
   border-radius: 8px;
-  border: 1.33px solid #006b6a;
+  border: 1.33px solid #006b6a90;
 }
 .testimonial--section--card--reviews {
   display: flex;
@@ -606,15 +606,24 @@ input[type="checkbox"] {
   .btn-outline-primary {
     display: none;
   }
+  .firstBtn{
+    margin-top:15px ;
+    display: flex;
+    justify-content: center;
+  }
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
-    padding-bottom: 70px;
+    padding: 70px 10px;
+  }
+  .portfolio--section{
+    padding: 70px 10px;
   }
   .hero--section--title,
   .hero--section-description,
   .footer--content {
     text-align: center;
+    /* padding: 0; */
   }
   .skills--section--container,
   .about--section,
@@ -631,9 +640,11 @@ input[type="checkbox"] {
   .hero--section--content,
   .hero--section--content--box {
     align-items: center;
+    
   }
   .portfolio--container-box {
     gap: 30px;
+    
   }
   .skills--section,
   .testimonial--section,
@@ -642,14 +653,15 @@ input[type="checkbox"] {
     gap: 20px;
     padding-top: 70px;
     padding-bottom: 70px;
+    padding: 10px;
   }
   .about--section {
     gap: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0 15px;
+
   }
   .testimonial--section--card {
-    padding: 25px;
+    padding: 25px ;
   }
   .hero--section--title,
   .skills--section--heading,
@@ -687,7 +699,7 @@ input[type="checkbox"] {
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
-  top: 25px;
+  top: 22px;
   right: 25px;
 }
 
@@ -701,9 +713,17 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 1200px) {
+  .navbar{
+    padding: 5px 10px;
+  }
+  .navLogo{
+    width: 70px;
+
+  }
   .nav__hamburger {
     display: flex;
     z-index: 200;
+ 
   }
   .navbar--items {
     display: flex;
