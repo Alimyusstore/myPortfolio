@@ -17,7 +17,7 @@ export default function HeroSection() {
             production-ready solutions.
           </p>
         </div>
-        <a href="https://wa.me/+2347015237423">
+        <a className="firstBtn" href="https://wa.me/+2347015237423">
           <button className="btn btn-primary">Get In Touch</button>
         </a>
       </div>
