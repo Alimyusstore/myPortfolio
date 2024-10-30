@@ -15,7 +15,7 @@ export default function MySkills() {
             </div>
             <div className="skills--section--card--content">
               <h3 className="skills--section--title">{item.title}</h3>
-              <p className="skills--section--description">{item.description.length === 200 ? item.description: item.description.slice(0,200)}...</p>
+              <p className="skills--section--description">{item.description.length <= 200 ? item.description: item.description.slice(0,200)}...</p>
             </div>
           </div>
         ))}

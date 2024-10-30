@@ -28,16 +28,16 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/9mobile.png",
-      "title": "9mobile Clone",
-      "description": " i cloned the 9mobile app to enhance and demonstrate my frontend development skills. This project involved recreating the user interface and core functionalities of the 9mobile app using React.js and Tailwind CSS.",
+      "src": "./img/myCac.png",
+      "title": "Yusstore Global CAC",
+      "description": " I designed the CAC Academy platform is to empower Nigerian entrepreneurs by providing comprehensive CAC Registration and post-incorporation services. I ensured that the platform’s mission-driven design focused on simplicity, accessibility, and affordability, equipping users to launch and manage their businesses effectively.",
       "link": "https://github.com/Alimyusstore/9mobile"
     },
     {
       "id": "2",
-      "src": "./img/palmpay.png",
-      "title": "Palmpay Clone",
-      "description": "i developed a clone of the PalmPay app to enhance and showcase my frontend development skills. This project involved replicating the user interface and key functionalities of the PalmPay app using React.js and Tailwind CSS.",
+      "src": "./img/petCare.png",
+      "title": "Pet Care App",
+      "description": "Myself and my team developed a pet care app to help pet owners conveniently manage pet-related activities, access health services, and connect with a community of pet lovers. The app combines e-commerce, social networking, health management, and subscription services to provide a comprehensive pet care solution.",
       "link": "https://github.com/Alimyusstore/palmpay"
     },
     {
