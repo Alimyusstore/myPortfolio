@@ -29,7 +29,7 @@
       {
       "id": "1",
       "src": "./img/payrit.png",
-      "title": "Zulfah",
+      "title": "Payrit",
       "description": " I contributed to the development of Payrit, a fintech solution designed to bridge the gap between the unbanked and banked. My role involved building intuitive user interfaces and integrating seamless payment functionalities using React.js, Next.js, and Tailwind CSS to enhance financial accessibility and user experience. ",
       "link": "https://www.payrit.com/"
     },
@@ -69,10 +69,9 @@
     {
       "id": "3",
       "count": "5",
-      "src": "./img/fawwass.png",
+      "src": "./img/fawas.png",
       "description": "Ajibola Yusuf is an exceptional frontend developer with a keen eye for detail and a strong problem-solving mindset. At Payrit, he played a crucial role in building seamless, user-friendly interfaces that enhanced our fintech solutions. His expertise in React, Next.js, and Tailwind CSS, combined with his ability to integrate complex functionalities, made a significant impact on our platform. Beyond technical skills, Ajibola is proactive, innovative, and highly dedicated to delivering quality work. His commitment to excellence and ability to adapt to challenges make him a valuable asset to any team.",
       "author_name": "Fawas Kareem",
       "author_designation": "CEO of Payrit"
-    }
-  ]
+    }  ]
 }

@@ -30,7 +30,7 @@ export default function Testimonial() {
             </div>
             <p className="text-md">{item.description.length === 300 ? item.description: item.description.slice(0,300)}...</p>
             <div className="testimonial--section--card--author--detail">
-              <img src={item.src} alt="Avatar" />
+              <img src={item.src} alt="Avatar" width={100}/>
               <div>
                 <p className="text-md testimonial--author--name">
                   {item.author_name}
