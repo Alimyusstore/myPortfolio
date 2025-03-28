@@ -26,27 +26,28 @@
     }
   ],
   "portfolio": [
-    {
+      {
       "id": "1",
-      "src": "./img/myCac.png",
-      "title": "Yusstore Global CAC",
-      "description": " I designed the CAC Academy platform is to empower Nigerian entrepreneurs by providing comprehensive CAC Registration and post-incorporation services. I ensured that the platform’s mission-driven design focused on simplicity, accessibility, and affordability, equipping users to launch and manage their businesses effectively.",
-      "link": "https://github.com/Alimyusstore/9mobile"
+      "src": "./img/payrit.png",
+      "title": "Zulfah",
+      "description": " I contributed to the development of Payrit, a fintech solution designed to bridge the gap between the unbanked and banked. My role involved building intuitive user interfaces and integrating seamless payment functionalities using React.js, Next.js, and Tailwind CSS to enhance financial accessibility and user experience. ",
+      "link": "https://www.payrit.com/"
     },
     {
       "id": "2",
-      "src": "./img/petCare.png",
-      "title": "Pet Care App",
-      "description": "Myself and my team developed a pet care app to help pet owners conveniently manage pet-related activities, access health services, and connect with a community of pet lovers. The app combines e-commerce, social networking, health management, and subscription services to provide a comprehensive pet care solution.",
-      "link": "https://github.com/Alimyusstore/palmpay"
+      "src": "./img/myCac.png",
+      "title": "Yusstore Global CAC",
+      "description": " I designed the CAC Academy platform is to empower Nigerian entrepreneurs by providing comprehensive CAC Registration and post-incorporation services. I ensured that the platform’s mission-driven design focused on simplicity, accessibility, and affordability, equipping users to launch and manage their businesses effectively.",
+      "link": "https://github.com/Alimyusstore/Yusstore-cac-website"
     },
     {
       "id": "3",
-      "src": "./img/Zulfah.png",
-      "title": "Zulfah",
-      "description": " i developed a clone of Zulfah Academy App to facilitate technology learning and enhance the digital experience for students and developers. This project involved creating a user-friendly interface and key educational functionalities using React.js and Tailwind CSS. ",
-      "link": "https://github.com/Alimyusstore/zulfahAcademy"
+      "src": "./img/petCare.png",
+      "title": "Pet Care App",
+      "description": "Myself and my team developed a pet care app to help pet owners conveniently manage pet-related activities, access health services, and connect with a community of pet lovers. The app combines e-commerce, social networking, health management, and subscription services to provide a comprehensive pet care solution.",
+      "link": "https://github.com/ZULFAHGROUP/pet-app-frontend"
     }
+  
   ],
   "testimonial": [
     {
@@ -68,10 +69,10 @@
     {
       "id": "3",
       "count": "5",
-      "src": "./img/rosh.png",
-      "description": "Yusuf has been an exceptional frontend developer at Zulfah Academy for over a year. His expertise in React.js and Tailwind CSS was crucial in creating a user-friendly and responsive educational platform. He played a key role in developing and maintaining frontend projects. Yusuf consistently demonstrated strong technical skills, creativity, and a proactive attitude. His ability to effectively communicate, troubleshoot, and deliver innovative solutions made him a valuable asset to our team. I highly recommend Yusuf for any frontend development position.",
-      "author_name": "Abayomi Ajao",
-      "author_designation": "CEO of Zulfah"
+      "src": "./img/fawwass.png",
+      "description": "Ajibola Yusuf is an exceptional frontend developer with a keen eye for detail and a strong problem-solving mindset. At Payrit, he played a crucial role in building seamless, user-friendly interfaces that enhanced our fintech solutions. His expertise in React, Next.js, and Tailwind CSS, combined with his ability to integrate complex functionalities, made a significant impact on our platform. Beyond technical skills, Ajibola is proactive, innovative, and highly dedicated to delivering quality work. His commitment to excellence and ability to adapt to challenges make him a valuable asset to any team.",
+      "author_name": "Fawas Kareem",
+      "author_designation": "CEO of Payrit"
     }
   ]
 }
