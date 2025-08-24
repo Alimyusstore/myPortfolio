@@ -33,7 +33,7 @@ export default function AboutMe() {
             <br />
             <br />
             Beyond coding, I'm passionate about{" "}
-            <strong>mentorship and leadership</strong> - having guided 700+
+            <strong>mentorship and leadership</strong> - having guided high number of
             entrepreneurs through my Business Academy and led cross-functional
             development teams to deliver production-ready applications.
             <br />
