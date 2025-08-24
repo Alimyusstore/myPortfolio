@@ -1,53 +1,111 @@
 {
-  "skills": [
-    {
-      "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "I’m a highly skilled and passionate Front-end Software Developer with over 3+ years of experience in designing, developing, and maintaining responsive websites and web applications. Proficient in HTML, CSS, JavaScript, and modern frontend frameworks and libraries such as React, Tailwind, Bootstrap and more. I Adept at collaborating with cross-functional teams to deliver high-quality products that enhance our user experience and meet our business objectives. I’ve Committed to staying updated with the latest industry trends and best practices."
+  "skills": {
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Specialized in building responsive, high-performance web applications with modern frameworks and libraries. Expert in React.js ecosystem with 4+ years of hands-on experience.",
+      "technologies": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Redux",
+        "Context API"
+      ],
+      "icon": "💻"
     },
-    {
-      "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "I am a skilled backend developer with over 1+ year of experience with a strong foundation in server-side technologies, database management, and application architecture. My expertise lies in building robust, scalable, and efficient server-side solutions that power seamless and dynamic web and mobile applications."
+    "backend": {
+      "title": "Backend Development",
+      "description": "Growing expertise in server-side development with focus on RESTful APIs, database design, and scalable architecture patterns. Currently expanding skills in Node.js ecosystem.",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "RESTful APIs",
+        "Git",
+        "Vercel",
+        "Netlify"
+      ],
+      "icon": "⚙️"
     },
-    {
-      "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "Graphic Design",
-      "description": "As a skilled graphic designer with over 5+ year of experience, I bring creativity and technical expertise to every project. With a keen eye for detail and a passion for visual storytelling, I specialize in creating compelling and aesthetically pleasing designs that effectively communicate your brand’s message. My proficiency spans across various design software"
+    "leadership": {
+      "title": "Technical Leadership",
+      "description": "Proven experience leading development teams and mentoring junior developers. Successfully managed cross-functional teams in delivering production-ready applications.",
+      "technologies": [
+        "Team Leadership",
+        "Project Management",
+        "Code Reviews",
+        "Mentorship",
+        "Agile Methodologies",
+        "Technical Documentation"
+      ],
+      "icon": "👥"
     },
-    {
-      "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Video Editing",
-      "description": "I am a proficient video editor with a passion for storytelling and a keen eye for detail. My expertise lies in creating engaging and visually appealing video content that captivates audiences and communicates messages effectively"
+    "design": {
+      "title": "UI/UX & Design",
+      "description": "Strong design sensibility with 5+ years in graphic design and video editing. Capable of translating designs into pixel-perfect, responsive interfaces.",
+      "technologies": [
+        "Figma",
+        "Responsive Design",
+        "User Experience",
+        "Visual Design",
+        "Prototyping",
+        "Adobe Creative Suite"
+      ],
+      "icon": "🎨"
     }
-  ],
+  },
   "portfolio": [
-      {
+    {
       "id": "1",
       "src": "./img/payrit.png",
-      "title": "Payrit",
-      "description": " I contributed to the development of Payrit, a fintech solution designed to bridge the gap between the unbanked and banked. My role involved building intuitive user interfaces and integrating seamless payment functionalities using React.js, Next.js, and Tailwind CSS to enhance financial accessibility and user experience. ",
-      "link": "https://www.payrit.com/"
+      "title": "Payrit - Fintech Platform",
+      "description": "Led frontend development for a comprehensive fintech solution bridging unbanked and banked users. Built responsive payment interfaces, real-time transaction monitoring, and secure authentication systems.",
+      "technologies": [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "RESTful APIs"
+      ],
+      "type": "Professional Project",
+      "link": "https://www.payrit.com/",
+      "status": "Live Production"
     },
     {
       "id": "2",
-      "src": "./img/myCac.png",
-      "title": "Yusstore Global CAC",
-      "description": " I designed the CAC Academy platform is to empower Nigerian entrepreneurs by providing comprehensive CAC Registration and post-incorporation services. I ensured that the platform’s mission-driven design focused on simplicity, accessibility, and affordability, equipping users to launch and manage their businesses effectively.",
-      "link": "https://github.com/Alimyusstore/Yusstore-cac-website"
+      "src": "./img/myAce.png",
+      "title": "Business Academy Platform",
+      "description": "Founded and developed a comprehensive business solutions platform serving 700+ entrepreneurs. Includes CAC registration, compliance services, and educational resources with integrated payment systems.",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "Payment Integration"
+      ],
+      "type": "Founder & Lead Developer",
+      "link": "https://yusstoreglobalservices.vercel.app/",
+      "status": "Active Business"
     },
     {
       "id": "3",
       "src": "./img/petCare.png",
-      "title": "Pet Care App",
-      "description": "Myself and my team developed a pet care app to help pet owners conveniently manage pet-related activities, access health services, and connect with a community of pet lovers. The app combines e-commerce, social networking, health management, and subscription services to provide a comprehensive pet care solution.",
-      "link": "https://github.com/ZULFAHGROUP/pet-app-frontend"
+      "title": "Pet Care Management App",
+      "description": "Led cross-functional team in developing a comprehensive pet management platform with subscription services, community features, e-commerce functionality, and health management tools.",
+      "technologies": [
+        "React.js",
+        "Redux",
+        "Node.js",
+        "MongoDB",
+        "Subscription API"
+      ],
+      "type": "Team Leadership",
+      "link": "https://github.com/ZULFAHGROUP/pet-app-frontend",
+      "status": "MVP Completed"
     }
-  
   ],
   "testimonial": [
     {
@@ -56,15 +114,17 @@
       "src": "./img/rosh.png",
       "description": "Yusuf has been an exceptional frontend developer at Zulfah Academy for over a year. His expertise in React.js and Tailwind CSS was crucial in creating a user-friendly and responsive educational platform. He played a key role in developing and maintaining frontend projects. Yusuf consistently demonstrated strong technical skills, creativity, and a proactive attitude. His ability to effectively communicate, troubleshoot, and deliver innovative solutions made him a valuable asset to our team. I highly recommend Yusuf for any frontend development position.",
       "author_name": "Abayomi Ajao",
-      "author_designation": "CEO of Zulfah"
+      "author_designation": "CEO of Zulfah",
+      "company": "Zulfah Academy"
     },
     {
       "id": "2",
       "count": "5",
       "src": "./img/mophar.png",
-      "description": "I am pleased to provide this testimonial for Yusuf, who has proven to be an exceptional frontend developer with impressive technical skills and a commitment to excellence. Yusuf has demonstrated outstanding proficiency in React.js and Tailwind CSS, delivering high-quality software solutions that are both user-friendly and visually appealing. His ability to understand complex requirements and translate them into effective frontend implementations has been commendable.Beyond his technical abilities, Yusuf is known for his problem-solving skills, attention to detail, and proactive attitude. He collaborates effectively with team members, addresses challenges promptly, and consistently seeks ways to improve our software solutions. I highly recommend Yusuf for any frontend development position. His technical knowledge, creativity, and strong work ethic make him a valuable asset to any team. We are confident in his ability to contribute positively and succeed in future endeavors.",
+      "description": "I am pleased to provide this testimonial for Yusuf, who has proven to be an exceptional frontend developer with impressive technical skills and a commitment to excellence. Yusuf has demonstrated outstanding proficiency in React.js and Tailwind CSS, delivering high-quality software solutions that are both user-friendly and visually appealing. His ability to understand complex requirements and translate them into effective frontend implementations has been commendable.Beyond his technical abilities, Yusuf is known for his problem-solving skills, attention to detail, and proactive attitude.",
       "author_name": "Quadri Salawudeen",
-      "author_designation": "Co-Founder of Xenturylens"
+      "author_designation": "Co-Founder of Xenturylens",
+      "company": "Xenturylens"
     },
     {
       "id": "3",
@@ -72,6 +132,25 @@
       "src": "./img/fawas.png",
       "description": "Ajibola Yusuf is an exceptional frontend developer with a keen eye for detail and a strong problem-solving mindset. At Payrit, he played a crucial role in building seamless, user-friendly interfaces that enhanced our fintech solutions. His expertise in React, Next.js, and Tailwind CSS, combined with his ability to integrate complex functionalities, made a significant impact on our platform. Beyond technical skills, Ajibola is proactive, innovative, and highly dedicated to delivering quality work. His commitment to excellence and ability to adapt to challenges make him a valuable asset to any team.",
       "author_name": "Fawas Kareem",
-      "author_designation": "CEO of Payrit"
-    }  ]
+      "author_designation": "CEO of Payrit",
+      "company": "Payrit"
+    }  ],
+  "achievements": [
+        {
+          "number": "4+",
+          "label": "Years of Experience"
+        },
+        {
+          "number": "15+",
+          "label": "Projects Completed"
+        },
+        {
+          "number": "700+",
+          "label": "Students Mentored"
+        },
+        {
+          "number": "3",
+          "label": "Companies Led Development"
+        }
+      ]
 }
