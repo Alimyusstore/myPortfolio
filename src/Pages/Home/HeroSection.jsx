@@ -64,7 +64,7 @@ export default function HeroSection() {
           </p>
           <div className="hero--section--stats">
             <div className="stat">
-              <h3>700+</h3>
+              <h3>30+</h3>
               <p>Students Mentored</p>
             </div>
             <div className="stat">
