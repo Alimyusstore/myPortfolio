@@ -385,7 +385,7 @@ body {
 .about--section {
   display: flex;
   align-items: center;
-  padding: 5rem 2rem;
+  padding: 5rem 1rem;
   background: #f8f9fa;
 }
 
@@ -417,6 +417,65 @@ body {
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .about--section--img {
+    flex-direction: column;
+    overflow: hidden; 
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .about--overlay {
+    position: static;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    background: rgba(255,255,255,0.98);
+    backdrop-filter: none;
+    box-sizing: border-box;
+    max-width: calc(100% - 1rem);
+    width: auto;
+  }
+  
+  .tech-stack {
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+  }
+  
+  .tech-stack span {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.4rem;
+    white-space: nowrap; 
+  }
+}
+
+@media (max-width: 480px) {
+  .about--section--img {
+    padding: 0; 
+    margin: 0;
+  }
+  
+  .about--overlay {
+    margin: 0.25rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    max-width: calc(100% - 0.5rem);
+  }
+  
+  .tech-stack {
+    gap: 0.25rem;
+    justify-content: flex-start;
+  }
+  
+  .tech-stack span {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.3rem;
+    flex-shrink: 0; 
+  }
 }
 
 .achievements--grid {
@@ -954,8 +1013,15 @@ body {
   .skills--section--heading {
     font-size: 2rem;
   }
+  .skills--section {
+    padding: 5rem 1rem;
 
-  .contact--header h2 {
+  }
+  .portfolio--section {
+    padding: 5rem 1rem;
+
+  }
+    .contact--header h2 {
     font-size: 2rem;
   }
 }
