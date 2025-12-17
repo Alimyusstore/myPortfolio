@@ -62,7 +62,7 @@
       "id": "1",
       "src": "./img/payrit.png",
       "title": "Payrit - Fintech Platform",
-      "description": "Led frontend development for a comprehensive fintech solution bridging unbanked and banked users. Built responsive payment interfaces, real-time transaction monitoring, and secure authentication systems.",
+      "description": "Supported the frontend development of a fintech solution bridging unbanked and banked users. Assisted in implementing responsive payment interfaces, basic admin dashboard components, real-time transaction display screens, and authentication-related UI using modern frontend tools",
       "technologies": [
         "React.js",
         "Next.js",
