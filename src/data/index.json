@@ -105,6 +105,54 @@
       "type": "Team Leadership",
       "link": "https://github.com/ZULFAHGROUP/pet-app-frontend",
       "status": "MVP Completed"
+    },
+    {
+      "id": "4",
+      "title": "Baslington - Logistics Platform",
+      "src": "./img/baslington.png",
+      "description": "A logistics platform revolutionizing Nigerian supply chain management with AI-powered load-to-truck matching, real-time GPS tracking with 30-second updates, and smart route optimization. The platform helps businesses save over 40% on logistics costs while providing bank-grade secure payments and comprehensive insurance coverage.",
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "Payment Gateway Integration",
+        "Route Optimization Engine",
+        "AI/ML Algorithms"
+      ],
+      "type": "Logistics Tech Platform",
+      "link": "https://baslington.com/",
+      "status": "Live Platform"
+    },
+    {
+      "id": "5",
+      "title": "Buildeckk - AI Venture Studio Platform",
+      "src": "./img/buildeckk.png",
+      "description": "Africa's first AI-powered venture studio platform that helps founders research, validate, build, and scale startups. The platform replaces 11-17 disconnected tools with an integrated system providing market intelligence, competitor analysis, investor-grade reports, and MVP planning specifically tuned for African markets.",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "AI/ML Algorithms",
+        "Supabase Database",
+        "Investor Matching"
+      ],
+      "type": "AI Platform for Founders",
+     "link": "https://buildeck-delta.vercel.app/",
+      "status": "Live Platform"
+    },
+    {
+      "id": "6",
+      "title": "Maqrahatul Tanzeel - Quran Education Platform",
+      "src": "./img/maqra.png",
+      "description": "A comprehensive online Quranic institute offering structured programs for Quran memorization (Hifz), Tajweed, and advanced Qira'at mastery with authentic Ijazah certification. The platform serves students across 10+ countries with personalized learning paths and expert instructors.",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Student Progress Tracking",
+        "Payment Processing",
+        "Video Conferencing Integration"
+      ],
+      "type": "Educational Platform",
+      "link": "https://maqrahat.vercel.app/",
+      "status": "Live Platform"
     }
   ],
   "testimonial": [
